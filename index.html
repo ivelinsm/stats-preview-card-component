@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <main id="main">
+      <div id="container">
+        <img
+          src="/images/image-header-desktop.jpg"
+          class="responsive"
+          alt="photo"
+          aria-hidden="true"
+        />
+
+        <div id="card-wrapper">
+          <div id="content">
+            <h1 id="title">
+              Get <span id="colored-title">insights</span> that help your
+              business grow.
+            </h1>
+
+            <p id="description">
+              Discover the benefits of data analytics and make better decisions
+              regarding revenue, customer experience, and overall efficiency.
+            </p>
+          </div>
+
+          <div id="stats">
+            <div class="stat">
+              <span class="stat-num">10k+</span>
+              <span class="stat-heading">companies</span>
+            </div>
+
+            <div class="stat">
+              <span class="stat-num">314+</span>
+              <span class="stat-heading">templates</span>
+            </div>
+
+            <div class="stat">
+              <span class="stat-num">12M+ </span>
+              <span class="stat-heading">queries</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="attribution">
+        <span>Challenge by </span
+        ><a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >
+        <span>Coded by </span><a href="#">Ivelin Mitev</a>
+      </div>
+    </main>
+  </body>
+</html>
